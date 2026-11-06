@@ -1,0 +1,24 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "ttk-tarih",
+  "title": "Tarih Çevirici (TTK)",
+  "description": "Milâdî / Hicrî / Rûmî tarih çevirisi. Hesap, TTK'nın Tarih Çevirme Kılavuzu betiğinin birebir uyarlanmasıdır; yerel çalışır, ağ kullanılmaz.",
+  "icon": "icon.png",
+  "author": "fikhiefendi",
+  "license": "MIT",
+  "platforms": ["macOS"],
+  "categories": ["Productivity", "Documentation"],
+  "commands": [
+    {
+      "name": "tarih",
+      "title": "Tarihi Çevir (Milâdî · Hicrî · Rûmî)",
+      "subtitle": "TTK Tarih Çevirme Kılavuzu",
+      "description": "Tarih yaz; üç takvimin karşılığını gör, satırı kopyala. Hesap TTK kılavuzu betiğinin uyarlanmasıdır; yerel çalışır.",
+      "keywords": ["tarih", "takvim", "çevirme", "hicri", "rumi", "miladi", "osmanli", "ttk", "kilavuz"],
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.80.0"
+  }
+}
